@@ -6,7 +6,9 @@ import openai
 import pandas as pd
 import json
 
-# Assuming your OpenAI API key is stored in a file named secret_key.py
+# Assuming your OpenAI API key is stored in a file named secret_key.py.
+# make sure you have a file called secret_key where you store your API key for this to execute properly 
+
 from secret_key import openai_api_key
 
 openai.api_key = openai_api_key
