@@ -3,7 +3,7 @@ This project is a AI powered mini chatbot. This chatbot is supposed to stimulate
 
 In the excel.py file you will find code meant to generate a random list of patient names, ages, gender, genetic test results, and the medications they are currently taking. 
 
-This chatbot asks the user to input the patient name and returns the patient information as well as lifestyle recommendations for those diagnosed with a positive test result. Additionally, it will ask if you want to perform a medical analysis for the patient. If you opt for a medical analysis of your patient, it will search its database for medications the patient is currently taking/age of the patient. This chatbot will recommend the optimal medication that can be used as to avoid any problems with current medications taken/age. 
+This chatbot asks the user to input the patient name and returns the patient information as well as lifestyle recommendations for those diagnosed with a positive test result. Additionally, it will ask if you want to perform a medical analysis for the patient. If you opt for a medical analysis of your patient, it will search its database for medications the patient is currently taking/age of the patient. This chatbot will recommend the optimal medication that can be used as to avoid any problems with current medications taken/age for those with the positive result. 
 Please see definitions.py file on how the medication reccomendation was constructed. 
 
 This chatbot is not meant to be used to recommend medication on its own or for health advice. This was created solely for learning purposes. I initiated this project to investigate the potential role of AI in the evolving landscape of telehealth, particularly when guided by the expertise of medical physicians.
