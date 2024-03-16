@@ -60,7 +60,7 @@ dtype = {
 df = pd.DataFrame(data)
 df = df.astype(dtype)
 
-# Get the current directory path where the Python script is located
+# Get the current directory path where the Python script is located. I chose to save my excel file where I saved my python folder; feel free to change the path as per your liking
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Specify the file path for saving the Excel file in the same directory
