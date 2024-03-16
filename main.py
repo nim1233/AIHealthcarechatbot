@@ -10,6 +10,8 @@ from definitions import (
 )
 import json
 import openai
+
+# make sure you have a file called secret_key where you store your API key for this to execute properly 
 from secret_key import openai_api_key
 
 # Set your OpenAI API key
