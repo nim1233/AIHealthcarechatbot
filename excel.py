@@ -9,10 +9,10 @@ import os
 # Create a Faker object
 faker = Faker()
 
-# Generate 100 random names
+# Generate 10 random names
 random_names = [faker.name() for _ in range(10)]
 
-# Generate 100 random ages between 18 and 80
+# Generate 10 random ages between 18 and 80
 random_ages = [random.randint(18, 80) for _ in range(10)]
 
 # Generate random genders ('Male' or 'Female')
